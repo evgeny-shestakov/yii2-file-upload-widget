@@ -54,6 +54,10 @@ class FileUploadUI extends BaseUpload
      * @var string the gallery
      */
     public $galleryTemplateView = 'gallery';
+    /**
+     * @var bool is render in form or not
+     */
+    public $renderInForm = true;
 
 
     /**
